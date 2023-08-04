@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="950.0" prefWidth="1716.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.show2">
+   <children>
+      <Line endX="1715.5999755859375" endY="39.29289245605469" layoutX="-10.0" layoutY="22.0" startX="26.700010299682617" startY="39.29289245605469" stroke="MAGENTA" strokeWidth="2.0" />
+      <AnchorPane layoutX="177.0" layoutY="73.0" prefHeight="825.0" prefWidth="1338.0" style="-fx-background-color: black;">
+         <children>
+            <Rectangle arcHeight="150.0" arcWidth="150.0" height="454.0" layoutX="30.0" layoutY="138.0" stroke="#efeaea" strokeType="INSIDE" strokeWidth="2.0" width="657.0" />
+            <ImageView fx:id="carImage" fitHeight="380.0" fitWidth="617.0" layoutX="48.0" layoutY="175.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../image/pexels-cesar-perez-733745.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="730.0" layoutY="215.0" prefHeight="43.0" prefWidth="232.0" style="-fx-font-weight: Bold;" text="Vehicles Name :" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="carName" layoutX="1028.0" layoutY="213.0" prefHeight="18.0" prefWidth="276.0" text="........................" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="732.0" layoutY="290.0" prefHeight="43.0" prefWidth="232.0" style="-fx-font-weight: bold;" text="Vehicles Model :" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="carModel" layoutX="1029.0" layoutY="288.0" prefHeight="18.0" prefWidth="276.0" text="........................" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="732.0" layoutY="365.0" prefHeight="43.0" prefWidth="210.0" style="-fx-font-weight: bold;" text="Vehicles Price :" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="carPrice" layoutX="1029.0" layoutY="364.0" prefHeight="18.0" prefWidth="276.0" text="........................" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="735.0" layoutY="434.0" prefHeight="43.0" prefWidth="210.0" style="-fx-font-weight: bold;" text="Vehicles Color :" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="carColor" layoutX="1029.0" layoutY="434.0" prefHeight="18.0" prefWidth="276.0" text="........................" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Line endX="1701.5999755859375" endY="39.29290771484375" layoutY="858.0" startX="26.700010299682617" startY="39.29289245605469" stroke="MAGENTA" strokeWidth="2.0" />
+      <Label layoutX="854.0" layoutY="13.0" prefHeight="48.0" prefWidth="194.0" style="-fx-font-weight: bold;" text="Tools_Vehical" textFill="#9acfb1c4">
+         <font>
+            <Font name="Vladimir Script" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="-1.0" prefHeight="64.0" prefWidth="328.0" text="All vehicles rental shop" textFill="#86a994c4">
+         <font>
+            <Font name="Blackadder ITC" size="39.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="174.0" fitWidth="91.0" layoutX="887.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/1d9f549635e17e275245a3b8b5813eac.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="1585.0" layoutY="10.0" lineSpacing="20.0" mnemonicParsing="false" onAction="#back" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="38.0" prefWidth="110.0" style="-fx-background-color: gray; -fx-font-weight: bold; -fx-cursor: hand; -fx-background-radius: 10;" text=" Back" textFill="#08ffa5">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="28.0" fitWidth="37.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/reply-arrow.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

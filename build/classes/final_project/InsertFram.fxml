@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InsertController">
+    <children>
+         <AnchorPane id="AnchorPane" layoutY="7.0" prefHeight="950.0" prefWidth="1716.0" style="-fx-background-color: black;">
+             <children>
+                <Rectangle fx:id="form" arcHeight="5.0" arcWidth="5.0" fill="#101010" height="584.0" layoutX="491.0" layoutY="154.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke: #997406; -fx-stroke-width: 2; -fx-arc-height: 150; -fx-arc-width: 150;" width="703.0" />
+                <Line id="top_page" endX="1685.5999755859375" endY="39.29289245605469" layoutY="12.0" startX="26.700010299682617" startY="39.29289245605469" stroke="#ecd088" strokeWidth="2.0" />
+                <Line id="bottom_bage" endX="1672.4000244140625" endY="39.29290771484375" layoutX="10.0" layoutY="850.0" startX="15.600011825561523" startY="39.29289245605469" stroke="#ecd088" strokeWidth="2.0" />
+                <Text id=" title_bageL" blendMode="LIGHTEN" fill="#913f8b" fontSmoothingType="LCD" layoutX="48.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-effect: serif;" text="All vehicles rental shop" wrappingWidth="279.73676681518555">
+                  <font>
+                      <Font size="24.0" />
+                  </font>
+                </Text>
+                 
+                <Text id="title_form" blendMode="LIGHTEN" fill="#ffce72" fontSmoothingType="LCD" layoutX="777.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-effect: serif;" text="Add_Car" wrappingWidth="141.3369255065918">
+                  <font>
+                     <Font name="Vladimir Script" size="40.0" />
+                  </font>
+                </Text>
+                <Line id="under_formN" endX="907.4000244140625" endY="238.39999389648438" layoutX="-7.0" layoutY="-2.0" startX="785.800048828125" startY="238.39999389648438" stroke="#913f8b" strokeWidth="2.0" />
+                 <TextField fx:id="model" layoutX="636.0" layoutY="287.0" onKeyTyped="#fun_model" prefHeight="26.0" prefWidth="174.0" promptText="Model" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />          
+                 <TextField fx:id="name" layoutX="848.0" layoutY="287.0" onKeyTyped="#fun_name" prefHeight="26.0" prefWidth="174.0" promptText="Name" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+                 <TextField fx:id="type" layoutX="628.0" layoutY="475.0" onKeyTyped="#fun_type" prefHeight="26.0" prefWidth="174.0" promptText="Type" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+                 <TextField fx:id="color" layoutX="630.0" layoutY="357.0" onKeyTyped="#fun_color" prefHeight="26.0" prefWidth="394.0" promptText="Color" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+                 <TextField fx:id="price" layoutX="630.0" layoutY="415.0" onKeyTyped="#fun_price" prefHeight="26.0" prefWidth="394.0" promptText="Price" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+                 <TextField fx:id="fuel" layoutX="848.0" layoutY="475.0" onKeyTyped="#fun_fuel" prefHeight="26.0" prefWidth="178.0" promptText="Fuel_Type" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />           
+                 <TextField fx:id="country" layoutX="620.0" layoutY="590.0" onKeyTyped="#fun_country" prefHeight="26.0" prefWidth="412.0" promptText="country" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+                 <TextField fx:id="id_owner" layoutX="624.0" layoutY="532.0" onKeyTyped="#fun_idowner" prefHeight="26.0" prefWidth="181.0" promptText="Post_Owner" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+                 <TextField fx:id="id_post" layoutX="844.0" layoutY="532.0" onKeyTyped="#fun_idpost" prefHeight="26.0" prefWidth="181.0" promptText="Post_ID" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+                 <TextField fx:id="image" layoutX="621.0" layoutY="654.0" onKeyTyped="#fun_image" prefHeight="26.0" prefWidth="412.0" promptText="Image" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+            
+                 <Line id="under_model" endX="813.0" endY="325.0" layoutX="-5.0" layoutY="-1.0" startX="642.4000244140625" startY="325.0" stroke="#5b4405" strokeWidth="2.0" />
+                 <Line id="under_colour" endX="1038.4000244140625" endY="325.0" layoutX="-12.0" layoutY="60.0" startX="642.4000244140625" startY="325.0" stroke="#5b4405" strokeWidth="2.0" />
+                 <Line id="under_price" endX="1037.800048828125" endY="325.0" layoutX="-13.0" layoutY="118.0" startX="642.4000244140625" startY="325.0" stroke="#5b4405" strokeWidth="2.0" />
+                 <Line id="under_type" endX="818.199951171875" endY="325.0" layoutX="-15.0" layoutY="176.0" startX="642.4000244140625" startY="325.0" stroke="#5b4405" strokeWidth="2.0" />
+                 <Line id="under_fuel" endX="822.4000244140625" endY="325.0" layoutX="204.0" layoutY="177.0" startX="644.0" startY="324.4000244140625" stroke="#5b4405" strokeWidth="2.0" />
+                 <Line id="under_owner" endX="821.0" endY="325.0" layoutX="-17.0" layoutY="233.0" startX="642.4000244140625" startY="325.0" stroke="#5b4405" strokeWidth="2.0" />
+                 <Line id="under_country" endX="1056.800048828125" endY="325.0" layoutX="-24.0" layoutY="293.0" startX="642.4000244140625" startY="325.0" stroke="#5b4405" strokeWidth="2.0" />
+                 <Line id="under_name" endX="813.0" endY="325.0" layoutX="207.0" startX="642.4000244140625" startY="325.0" stroke="#5b4405" strokeWidth="2.0" />
+                 <Line id="under_postid" endX="821.0" endY="325.0" layoutX="205.0" layoutY="232.0" startX="642.4000244140625" startY="325.0" stroke="#5b4405" strokeWidth="2.0" />
+                 <Line id="under_image" endX="1056.800048828125" endY="325.0" layoutX="-24.0" layoutY="355.0" startX="642.4000244140625" startY="325.0" stroke="#5b4405" strokeWidth="2.0" />
+            
+                 <Button fx:id="clear" layoutX="917.0" layoutY="717.0" mnemonicParsing="false" onAction="#clear" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="42.0" prefWidth="114.0" style="-fx-background-color: black; -fx-text-fill: lightskyblue; -fx-border-color: #913f8b; -fx-border-radius: 15; -fx-border-width: 2; -fx-cursor: hand;" text="Clear" textFill="#1eb6e8">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+                 <Button fx:id="submit" layoutX="666.0" layoutY="717.0" mnemonicParsing="false" onAction="#submit" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="42.0" prefWidth="114.0" style="-fx-background-color: black; -fx-text-fill: skyblue; -fx-border-color: #913f8b; -fx-border-radius: 15; -fx-border-width: 2; -fx-cursor: hand;" text="submit" textFill="#1eb6e8">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font></Button>
+            <Button fx:id="back" layoutX="1555.0" mnemonicParsing="false" onAction="#back" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="32.0" prefWidth="130.0" style="-fx-background-color: black; -fx-text-fill: skyblue; -fx-border-radius: 15; -fx-border-width: 2; -fx-cursor: hand;" text=" Back" textFill="#1eb6e8">
+               <font>
+                  <Font name="Harlow Solid Italic" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/reply-arrow%20(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="94.0" fitWidth="62.0" layoutX="828.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/1d9f549635e17e275245a3b8b5813eac.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="430.0" fitWidth="463.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/istockphoto-1179192298-612x612.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="424.0" fitWidth="463.0" layoutX="1212.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/istockphoto-1179192298-612x612.jpg" />
+               </image>
+            </ImageView>
+            
+        
+             </children>
+         </AnchorPane>
+    </children>
+</AnchorPane>

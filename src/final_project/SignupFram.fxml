@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="950.0" prefWidth="1716.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.sign">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="-2.0" prefHeight="950.0" prefWidth="1716.0" style="-fx-background-color: black;">
+         <children>
+            <Button layoutX="911.0" layoutY="747.0" mnemonicParsing="false" onAction="#clear" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="42.0" prefWidth="114.0" style="-fx-background-color: black; -fx-border-color: yellow; -fx-border-radius: 15; -fx-border-width: 2; -fx-cursor: hand; -fx-background-radius: 10;" text="Clear" textFill="#05d0ff">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font></Button>
+            <Rectangle fx:id="form" arcHeight="5.0" arcWidth="5.0" fill="#101010" height="590.0" layoutX="616.0" layoutY="154.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke: DARKVIOLET; -fx-stroke-width: 2; -fx-arc-height: 150; -fx-arc-width: 150;" width="486.0" />
+            <Line endX="1685.5999755859375" endY="39.29289245605469" layoutY="2.0" startX="26.700010299682617" startY="39.29289245605469" stroke="MAGENTA" strokeWidth="2.0" />
+            <Line endX="1672.4000244140625" endY="39.29290771484375" layoutX="10.0" layoutY="850.0" startX="15.600011825561523" startY="39.29289245605469" stroke="MAGENTA" strokeWidth="2.0" />
+            <Text blendMode="LIGHTEN" fill="#00d9ff" fontSmoothingType="LCD" layoutX="41.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All vehicles rental shop" wrappingWidth="395.73676681518555">
+               <font>
+                  <Font name="Blackadder ITC" size="46.0" />
+               </font>
+            </Text>
+            <Text blendMode="LIGHTEN" fill="#00ddff" fontSmoothingType="LCD" layoutX="799.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-effect: serif;" text="Sign_up" wrappingWidth="159.7369499206543">
+               <font>
+                  <Font name="Vladimir Script" size="42.0" />
+               </font>
+            </Text>
+            <Line endX="907.4000244140625" endY="238.39999389648438" layoutX="11.0" layoutY="1.0" startX="785.800048828125" startY="238.39999389648438" stroke="RED" strokeWidth="2.0" />
+            <TextField fx:id="id" layoutX="635.0" layoutY="287.0" onKeyTyped="#key" prefHeight="26.0" prefWidth="418.0" promptText="ID" style="-fx-background-color: blackE; -fx-text-inner-color: AQUA;" />          
+            <TextField fx:id="fname" layoutX="635.0" layoutY="344.0" onKeyTyped="#keyf" prefHeight="26.0" prefWidth="418.0" promptText="First name" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+            <TextField fx:id="lname" layoutX="635.0" layoutY="400.0" onKeyTyped="#keyl" prefHeight="26.0" prefWidth="418.0" promptText="Last name" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+            <TextField fx:id="email" layoutX="634.0" layoutY="451.0" onKeyTyped="#keye" prefHeight="26.0" prefWidth="418.0" promptText="Your Email" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+            <TextField fx:id="phone" layoutX="635.0" layoutY="562.0" onKeyTyped="#keypho" prefHeight="26.0" prefWidth="418.0" promptText="Enter your phone" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+            <PasswordField fx:id="pass" layoutX="635.0" layoutY="508.0" onKeyTyped="#keyp" prefHeight="26.0" prefWidth="422.0" promptText="Password" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />           
+            <Line endX="1062.4000244140625" endY="325.0" layoutX="-8.0" layoutY="45.0" startX="642.4000244140625" startY="325.0" stroke="MAGENTA" strokeWidth="2.0" />
+            <Line endX="1062.4000244140625" endY="325.0" layoutX="-9.0" layoutY="153.0" startX="642.4000244140625" startY="325.0" stroke="MAGENTA" strokeWidth="2.0" />
+            <Line endX="1064.199951171875" endY="325.0" layoutX="-9.0" layoutY="210.0" startX="642.4000244140625" startY="325.0" stroke="MAGENTA" strokeWidth="2.0" />
+            <Line endX="1062.4000244140625" endY="325.0" layoutX="-9.0" layoutY="264.0" startX="642.4000244140625" startY="325.0" stroke="MAGENTA" strokeWidth="2.0" />
+            <Line endX="1062.4000244140625" endY="325.0" layoutX="-7.0" layoutY="102.0" startX="642.4000244140625" startY="325.0" stroke="MAGENTA" strokeWidth="2.0" />
+            <Line endX="1062.4000244140625" endY="325.0" layoutX="-10.0" layoutY="-10.0" startX="642.4000244140625" startY="325.0" stroke="MAGENTA" strokeWidth="2.0" />
+                
+            <Text blendMode="LIGHTEN" fill="WHITE" fontSmoothingType="LCD" layoutX="734.0" layoutY="705.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-effect: serif; -fx-stroke: white; -fx-stroke-width: 0.5; -fx-font-weight: bold;" text="Gender:" wrappingWidth="63.528709411621094">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <HBox layoutX="802.0" layoutY="686.0" prefHeight="42.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <RadioButton fx:id="male" mnemonicParsing="false" onAction="#male" style="-fx-cursor: hand;" text="Male" textFill="#2dd5ef">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="gender" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton fx:id="female" mnemonicParsing="false" onAction="#female" style="-fx-cursor: hand;" text="Female" textFill="RED" toggleGroup="$gender">
+                     <font>
+                        <Font size="17.0" />
+                     </font></RadioButton>
+               </children>
+            </HBox>
+            <Button fx:id="submit" layoutX="704.0" layoutY="748.0" mnemonicParsing="false" onAction="#submit" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="42.0" prefWidth="114.0" style="-fx-cursor: hand; -fx-background-color: black; -fx-border-color: yellow; -fx-border-radius: 15; -fx-border-width: 2; -fx-background-radius: 10;" text="submit" textFill="#04d5ff">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font></Button>
+            <ImageView fitHeight="87.0" fitWidth="148.0" layoutX="1542.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: shadow;" />
+            <ImageView fitHeight="42.0" fitWidth="55.0" layoutX="1515.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: shadow;" />
+            <RadioButton fx:id="user" layoutX="883.0" layoutY="606.0" mnemonicParsing="false" onAction="#user" style="-fx-cursor: hand;" text="coustemer" textFill="#05e6ff">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="joo" />
+               </toggleGroup>
+            </RadioButton>
+            <Text blendMode="LIGHTEN" fill="WHITE" fontSmoothingType="LCD" layoutX="727.0" layoutY="626.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-effect: serif; -fx-stroke: white; -fx-stroke-width: 0.5; -fx-font-weight: bold;" text="account:" wrappingWidth="62.20001220703125">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <RadioButton fx:id="honor" layoutX="797.0" layoutY="606.0" mnemonicParsing="false" onAction="#honor" style="-fx-cursor: hand;" text="honor" textFill="#ff0505" toggleGroup="$joo">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <ImageView fitHeight="113.0" fitWidth="70.0" layoutX="824.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/1d9f549635e17e275245a3b8b5813eac.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="777.0" fitWidth="470.0" layoutX="1189.0" layoutY="61.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../image/79d3ea5ba4070e9dd743361668747ddc.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="777.0" fitWidth="470.0" layoutX="58.0" layoutY="75.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../image/79d3ea5ba4070e9dd743361668747ddc.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="error" alignment="CENTER" layoutX="648.0" layoutY="116.0" onKeyTyped="#key" prefHeight="26.0" prefWidth="418.0" style="-fx-background-color: blackE; -fx-text-inner-color: AQUA;" />
+           
+         </children>
+      </AnchorPane>
+      <CheckBox fx:id="Age" layoutX="763.0" layoutY="650.0" mnemonicParsing="false" onAction="#Age" prefHeight="25.0" prefWidth="180.0" style="-fx-cursor: hand;" text="your age above 18 ?!" textFill="#20adfa" />
+   </children>
+</AnchorPane>

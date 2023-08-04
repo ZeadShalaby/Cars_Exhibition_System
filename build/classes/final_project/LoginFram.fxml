@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="644.0" prefWidth="835.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#333333" height="538.0" layoutX="189.0" layoutY="48.0" stroke="#ffa362" strokeType="INSIDE" strokeWidth="3.0" style="-fx-stroke: v; -fx-stroke-width: 2; -fx-arc-height: 130; -fx-arc-width: 140;" width="450.0" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <ImageView fitHeight="124.0" fitWidth="142.0" layoutX="361.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/png-transparent-man-illustration-computer-icons-avatar-login-user-avatar-child-web-design-face-thumbnail.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="id" layoutX="257.0" layoutY="298.0" onKeyTyped="#key" prefHeight="25.0" prefWidth="338.0" promptText="ID" style="-fx-background-color: #333; -fx-text-inner-color: #ffa362;" />
+      <Line endX="195.0" layoutX="397.0" layoutY="323.0" startX="-142.0" stroke="#ffa362" />
+      <TextField fx:id="email" layoutX="253.0" layoutY="353.0" onKeyTyped="#email" prefHeight="25.0" prefWidth="338.0" promptText="Email" style="-fx-background-color: #333; -fx-text-inner-color: #ffa362;" />
+      <PasswordField fx:id="pass" layoutX="252.0" layoutY="402.0" onKeyTyped="#keyp" prefHeight="25.0" prefWidth="338.0" promptText="Password" style="-fx-background-color: #333; -fx-text-inner-color: #ffa362;" />
+      <Button layoutX="323.0" layoutY="538.0" mnemonicParsing="false" onAction="#clear" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="29.0" prefWidth="75.0" style="-fx-background-radius: 10px; -fx-background-color: #f5ded0; -fx-cursor: HAND;" text="Clear" textFill="#ffa362">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="submit" alignment="CENTER" layoutX="447.0" layoutY="538.0" mnemonicParsing="false" onAction="#submit" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="29.0" prefWidth="75.0" style="-fx-background-radius: 10px; -fx-background-color: #f5ded0; -fx-cursor: HAND;" text="Submit" textFill="#ffa362">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <Line endX="195.0" layoutX="397.0" layoutY="378.0" startX="-142.0" stroke="#ffa362" />
+      <Line endX="195.0" layoutX="394.0" layoutY="427.0" startX="-142.0" stroke="#ffa362" />
+      <Text fill="#ffa362" layoutX="386.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="144.0">
+         <font>
+            <Font name="Vladimir Script" size="41.0" />
+         </font>
+      </Text>
+      <Line endX="95.0" layoutX="399.0" layoutY="277.0" startX="-48.0" stroke="#ffa362" />
+      <Button layoutX="458.0" layoutY="491.0" mnemonicParsing="false" onAction="#sign" onMouseEntered="#Enter" onMouseExited="#Exit" style="-fx-background-color: #333; -fx-cursor: HAND;" text="sign up" textFill="#ffa362" />
+      <Button fx:id="forget" layoutX="304.0" layoutY="491.0" mnemonicParsing="false" onAction="#forget" onMouseEntered="#Enter" onMouseExited="#Exit" style="-fx-background-color: #333; -fx-cursor: HAND;" text="Forget password" textFill="#ffa362" />
+      <RadioButton fx:id="admin" layoutX="305.0" layoutY="449.0" mnemonicParsing="false" text="Admin" textFill="#ffa362">
+         <toggleGroup>
+            <ToggleGroup fx:id="login" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="owner" layoutX="406.0" layoutY="449.0" mnemonicParsing="false" text="Owner" textFill="#ffa362" toggleGroup="$login" />
+      <RadioButton fx:id="customer" layoutX="497.0" layoutY="449.0" mnemonicParsing="false" text="Customer" textFill="#ffa362" toggleGroup="$login" />
+    </children>
+</AnchorPane>

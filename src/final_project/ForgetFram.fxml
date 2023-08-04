@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="950.0" prefWidth="1716.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ForgetController">
+   <children>
+      <Rectangle fx:id="form" arcHeight="5.0" arcWidth="5.0" fill="#101010" height="437.0" layoutX="537.0" layoutY="216.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke: #e41d8a; -fx-stroke-width: 2; -fx-arc-height: 150; -fx-arc-width: 150;" width="649.0" />
+      <Text id=" title_bageL" blendMode="LIGHTEN" fill="#a4ec65" fontSmoothingType="LCD" layoutX="49.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-effect: serif;" text="All vehicles rental shop" wrappingWidth="279.73676681518555">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text id="title_form" blendMode="LIGHTEN" fill="#a4ec65" fontSmoothingType="LCD" layoutX="792.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-effect: serif;" text="Forget_pass" wrappingWidth="142.13691329956055">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      
+      <Line id="top_page" endX="1685.5999755859375" endY="39.29289245605469" layoutX="10.0" layoutY="12.0" startX="26.700010299682617" startY="39.29289245605469" stroke="#e41d8a" strokeWidth="2.0" />
+      <Line id="under_formN" endX="931.3999633789062" endY="238.39999389648438" layoutX="-3.0" layoutY="54.0" startX="785.800048828125" startY="238.39999389648438" stroke="#e41d8a" strokeWidth="2.0" />
+      <Line id="under_email" endX="1127.199951171875" endY="325.3999938964844" layoutX="-21.0" layoutY="152.0" startX="652.0" startY="325.3999938964844" stroke="#a4ec65" strokeWidth="2.0" />
+      <Line id="under_pass" endX="1127.199951171875" endY="325.3999938964844" layoutX="-21.0" layoutY="231.0" startX="652.0" startY="325.3999938964844" stroke="#a4ec65" strokeWidth="2.0" />
+      <Line id="bottom_page" endX="1685.5999755859375" endY="39.29289245605469" layoutX="9.0" layoutY="864.0" startX="26.700010299682617" startY="39.29289245605469" stroke="#e41d8a" strokeWidth="2.0" />
+      <Line id="under_id" endX="1127.199951171875" endY="325.3999938964844" layoutX="-22.0" layoutY="60.0" startX="652.0" startY="325.3999938964844" stroke="#a4ec65" strokeWidth="2.0" />
+      
+      <TextField fx:id="id_owner" layoutX="628.0" layoutY="352.0" onAction="#fun_id" onKeyTyped="#fun_email" prefHeight="26.0" prefWidth="475.0" promptText="ID_Owner" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+      <TextField fx:id="email" layoutX="628.0" layoutY="446.0" onKeyTyped="#fun_email" prefHeight="26.0" prefWidth="475.0" promptText="Your Email" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+      <PasswordField fx:id="pass" layoutX="628.0" layoutY="522.0" onKeyTyped="#fun_pass" prefHeight="26.0" prefWidth="477.0" promptText="Password" style="-fx-background-color: black; -fx-text-inner-color: AQUA;" />
+   
+      <Button fx:id="clear" layoutX="945.0" layoutY="631.0" mnemonicParsing="false" onAction="#clear" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="42.0" prefWidth="114.0" style="-fx-background-color: black; -fx-text-fill: lightskyblue; -fx-border-color: #a4ec65; -fx-border-radius: 15; -fx-border-width: 2; -fx-cursor: hand;" text="Clear" textFill="#1eb6e8">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="edit" layoutX="688.0" layoutY="631.0" mnemonicParsing="false" onAction="#edit" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="42.0" prefWidth="114.0" style="-fx-background-color: black; -fx-text-fill: skyblue; -fx-border-color: #a4ec65; -fx-border-radius: 15; -fx-border-width: 2; -fx-cursor: hand;" text="Edit" textFill="#dc2403">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="143.0" fitWidth="76.0" layoutX="826.0" layoutY="64.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/1d9f549635e17e275245a3b8b5813eac.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="469.0" fitWidth="438.0" layoutX="1275.0" layoutY="213.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/66f0e2b30d7bbc4c3217afb54cd50451.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="538.0" fitWidth="420.0" layoutX="48.0" layoutY="189.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/66f0e2b30d7bbc4c3217afb54cd50451.jpg" />
+         </image>
+      </ImageView>
+      
+    </children>
+</AnchorPane>

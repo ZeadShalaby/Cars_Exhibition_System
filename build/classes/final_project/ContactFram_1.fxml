@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="439.0" prefWidth="873.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.contactcontroller1">
+   <children>
+      <ImageView fitHeight="442.0" fitWidth="415.0" layoutX="-1.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/car.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="email" layoutX="438.0" layoutY="82.0" prefHeight="26.0" prefWidth="401.0" promptText="Email" style="-fx-background-color: #333; -fx-text-inner-color: WHite;" />
+      <Line endX="346.0" layoutX="494.0" layoutY="109.0" startX="-54.0" stroke="#ffcb3c" strokeWidth="2.0" />
+      <TextArea fx:id="comp" layoutX="439.0" layoutY="201.0" prefHeight="120.0" prefWidth="402.0" promptText="What's ur complain" style="-fx-background-color: #333; -fx-background-color: #333;" />
+      <TextField fx:id="phone" layoutX="438.0" layoutY="138.0" onKeyTyped="#phone" prefHeight="26.0" prefWidth="402.0" promptText="Phone" style="-fx-background-color: #333; -fx-text-inner-color: WHite;" />
+      <Line endX="346.0" layoutX="495.0" layoutY="166.0" startX="-55.0" stroke="#ffcb3c" strokeWidth="2.0" />
+      <Button layoutX="582.0" layoutY="359.0" mnemonicParsing="false" onAction="#submit" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="30.0" prefWidth="126.0" style="-fx-background-radius: 50px; -fx-cursor: HAND; -fx-background-color: #333; -fx-border-color: white; -fx-border-radius: 10;" text="Submit">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9473684430122375" green="0.6514619588851929" blue="0.05964912101626396" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Text fill="#b5b5b5" layoutX="71.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Contact with us at any time " wrappingWidth="273.62107849121094">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Text>
+      <Line endX="346.800048828125" layoutX="493.0" layoutY="323.0" startX="-51.600006103515625" stroke="#ffcb3c" strokeWidth="2.0" />
+      <Button fx:id="back" layoutX="865.0" layoutY="7.0" mnemonicParsing="false" onAction="#back" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="32.0" prefWidth="130.0" style="-fx-background-color: black; -fx-text-fill: skyblue; -fx-border-radius: 15; -fx-border-width: 2; -fx-cursor: hand;" text=" Back" textFill="#1eb6e8">
+         <font>
+            <Font name="Harlow Solid Italic" size="20.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="36.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/reply-arrow%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="248.0" fitWidth="126.0" layoutX="882.0" layoutY="101.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/1d9f549635e17e275245a3b8b5813eac.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

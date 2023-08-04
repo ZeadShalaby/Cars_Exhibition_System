@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="950.0" prefWidth="1716.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.rentel">
+   <children>
+      <Line endX="1704.0" endY="39.29290008544922" layoutY="17.0" startX="26.700010299682617" startY="39.29289245605469" stroke="MAGENTA" strokeWidth="2.0" />
+      <Line endX="1696.5999755859375" endY="39.29290771484375" layoutX="-7.0" layoutY="860.0" startX="26.700010299682617" startY="39.29289245605469" stroke="MAGENTA" strokeWidth="2.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="812.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/1d9f549635e17e275245a3b8b5813eac.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="120.0" arcWidth="120.0" height="529.0" layoutX="432.0" layoutY="176.0" stroke="VIOLET" strokeType="INSIDE" strokeWidth="2.0" width="851.0" />
+      <Label layoutX="586.0" layoutY="276.0" prefHeight="18.0" prefWidth="170.0" style="-fx-text-fill: white; -fx-font-weight: bold;" text="Renter Name :" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Rname" layoutX="724.0" layoutY="275.0" prefHeight="27.0" prefWidth="432.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 5; -fx-text-inner-color: white;" />
+      <TextField fx:id="Vname" layoutX="720.0" layoutY="503.0" prefHeight="27.0" prefWidth="432.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 5; -fx-text-inner-color: white;" />
+      <TextField fx:id="EndD" layoutX="720.0" layoutY="442.0" prefHeight="27.0" prefWidth="432.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 5; -fx-text-inner-color: white;" />
+      <TextField fx:id="StartD" layoutX="720.0" layoutY="390.0" prefHeight="27.0" prefWidth="432.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 5; -fx-text-inner-color: white;" />
+      <TextField fx:id="Rnumber" layoutX="722.0" layoutY="331.0" prefHeight="27.0" prefWidth="432.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 5; -fx-text-inner-color: white;" />
+      <Label layoutX="584.0" layoutY="504.0" prefHeight="18.0" prefWidth="170.0" style="-fx-text-fill: white; -fx-font-weight: bold;" text="Vehicle Name :" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="585.0" layoutY="443.0" prefHeight="18.0" prefWidth="170.0" style="-fx-text-fill: white; -fx-font-weight: bold;" text="End Date :" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="586.0" layoutY="391.0" prefHeight="18.0" prefWidth="170.0" style="-fx-text-fill: white; -fx-font-weight: bold;" text="Start Date :" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="586.0" layoutY="332.0" prefHeight="18.0" prefWidth="170.0" style="-fx-text-fill: white; -fx-font-weight: bold;" text="Renter Number :" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="583.0" layoutY="558.0" prefHeight="18.0" prefWidth="170.0" style="-fx-text-fill: white; -fx-font-weight: bold;" text="Vehicle Price :" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="vPrice" layoutX="719.0" layoutY="560.0" prefHeight="27.0" prefWidth="432.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 5; -fx-text-inner-color: white;" />
+      <Button fx:id="rental" layoutX="812.0" layoutY="609.0" mnemonicParsing="false" onAction="#rental" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="49.0" prefWidth="146.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 15; -fx-border-width: 2; -fx-font-weight: bold;" text="Rental" textFill="#0fcee7">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Text blendMode="LIGHTEN" fill="#23aabf" fontSmoothingType="LCD" layoutX="53.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All vehicles rental shop" wrappingWidth="279.73676681518555">
+         <font>
+            <Font name="Blackadder ITC" size="36.0" />
+         </font>
+      </Text>
+      <Text blendMode="LIGHTEN" fill="#0fcee7" fontSmoothingType="LCD" layoutX="855.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-effect: serif;" text="Rental" wrappingWidth="122.13691329956055">
+         <font>
+            <Font name="Vladimir Script" size="37.0" />
+         </font>
+      </Text>
+      <Line endX="907.4000244140625" endY="238.39999389648438" layoutX="52.0" layoutY="4.0" startX="785.800048828125" startY="238.39999389648438" stroke="RED" strokeWidth="2.0" />
+      <Button fx:id="back" layoutX="1551.0" layoutY="2.0" mnemonicParsing="false" onAction="#back" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="32.0" prefWidth="130.0" style="-fx-background-color: black; -fx-text-fill: skyblue; -fx-border-radius: 15; -fx-border-width: 2; -fx-cursor: hand;" text=" Back" textFill="#1eb6e8">
+         <font>
+            <Font name="Harlow Solid Italic" size="20.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="36.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

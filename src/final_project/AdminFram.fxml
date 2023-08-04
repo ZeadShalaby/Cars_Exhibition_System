@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="966.0" prefWidth="1710.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.admincontroller">
+   <children>
+      <AnchorPane fx:id="slider" layoutX="-4.0" layoutY="101.0" prefHeight="839.0" prefWidth="158.0" style="-fx-background-color: grey;">
+         <children>
+            <Button fx:id="delete" layoutX="-1.0" layoutY="348.0" mnemonicParsing="false" onAction="#delete" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="42.0" prefWidth="148.0" style="-fx-font-weight: bold; -fx-background-color: gray; -fx-cursor: hand;" text="Delete_post">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/delete.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="delete_acc" layoutX="2.0" layoutY="513.0" mnemonicParsing="false" onAction="#delete_acc" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="41.0" prefWidth="134.0" style="-fx-background-color: gray; -fx-font-weight: bold; -fx-cursor: hand;" text="Delete_acc">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/delete-user.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="logout" layoutX="1.0" layoutY="682.0" mnemonicParsing="false" onAction="#logout" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="42.0" prefWidth="108.0" style="-fx-background-color: gray; -fx-font-weight: bold; -fx-cursor: hand;" text="logout">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/power.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="232.0" fitWidth="152.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/administrator-male.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="1.0" layoutY="207.0" mnemonicParsing="false" onAction="#create" onMouseEntered="#Enter" onMouseExited="#Exit" prefHeight="42.0" prefWidth="148.0" style="-fx-background-color: gray; -fx-font-weight: bold; -fx-cursor: hand;" text="Create_User">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/external-support-customer-support-sbts2018-solid-sbts2018-1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-2.0" prefHeight="118.0" prefWidth="1712.0" style="-fx-background-color: black;">
+         <children>
+            <Button fx:id="Exit" layoutX="37.0" layoutY="76.0" mnemonicParsing="false" onAction="#mouse" style="-fx-background-color: black; -fx-cursor: hand;">
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@../image/menu.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Pane prefHeight="59.0" prefWidth="1712.0" style="-fx-background-color: gray;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="49.0" layoutX="1033.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="59.0" fitWidth="81.0" layoutX="1615.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/home.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="dele_acc" layoutX="1389.0" layoutY="17.0" onAction="#dele_acc" prefHeight="30.0" prefWidth="186.0" promptText="write Id" />
+                  <Button fx:id="Exit11" layoutX="762.0" layoutY="4.0" mnemonicParsing="false" onAction="#mouse1" style="-fx-background-color: blagrayck;" />
+                  <Label layoutX="22.0" layoutY="-2.0" prefHeight="63.0" prefWidth="331.0" text="All vehicles rental shop" textFill="#400f0fc4">
+                     <font>
+                        <Font name="Blackadder ITC" size="38.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="dele" fitHeight="42.0" fitWidth="51.0" layoutX="1334.0" layoutY="9.0" onDragDetected="#dele" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@../image/delete-user.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="59.0" fitWidth="118.0" layoutX="835.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/external-admin-project-work-icongeek26-linear-colour-icongeek26.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="902.0" layoutY="9.0" prefHeight="48.0" prefWidth="99.0" text="Admin" textFill="#430b0bc4">
+                     <font>
+                        <Font name="Vladimir Script" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="758.0" layoutY="9.0" prefHeight="48.0" prefWidth="78.0" text="Home" textFill="#430b0bc4">
+                     <font>
+                        <Font name="Vladimir Script" size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button fx:id="Exit1" layoutX="69.0" layoutY="76.0" mnemonicParsing="false" onAction="#mouse1" style="-fx-background-color: black; -fx-cursor: hand;">
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@../image/menu.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="846.0" fitWidth="523.0" layoutX="628.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/1d9f549635e17e275245a3b8b5813eac.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
