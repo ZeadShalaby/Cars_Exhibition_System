@@ -142,7 +142,7 @@ Any contributions you make are **greatly appreciated**.
 
 
 ## Contact with me
- *info.zeadshalaby@gmail.com* - [Ziad Shalaby](https://github.com/ZeadShalaby)
+ [info.zeadshalaby@gmail.com](zeadshalaby1@gmail.com)
 
 
 
