@@ -33,18 +33,18 @@
  
 <p >
     # Screenshots
+  
+📌Login Page:
+
+
+<img src="https://i.imgur.com/yDpu7wN.png" alt="project(Coise-User)" width="900" height="380">
+
 
 📌Home Page:
 
 
-<img src="https://i.imgur.com/akzoBU1.png" alt="project(Coise-User)" width="900" height="380">
+<img src="https://i.imgur.com/iUHalVU.png" alt="project(Coise-User)" width="900" height="380">
 
-
-
-📌Login Page:
-
-
-<img src="https://i.imgur.com/4Pbliqh.png" alt="project(Coise-User)" width="900" height="380">
 
 
 
