@@ -2,7 +2,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/ZeadShalaby/Hotel-Management-System">
-    <img src="https://i.imgur.com/Sac88zn.png" alt="Logo" width="230" height="170">
+    <img src="https://i.imgur.com/Sac88zn.png" alt="Logo" width="260" height="200">
   </a>
 
 <h3 align="center">Cars_Exhibition_System</h3>
@@ -27,7 +27,7 @@
 
 
 
-<img src="https://i.imgur.com/SM3wMi.png" alt="Logo" width="900" height="500">
+<img src="https://i.imgur.com/PMvJumh.png" alt="Logo" width="900" height="500">
  <br/>
  <br/>
  
