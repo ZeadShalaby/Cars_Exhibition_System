@@ -40,35 +40,35 @@
 <img src="https://i.imgur.com/yDpu7wN.png" alt="project(Coise-User)" width="900" height="580">
 
 
-📌Home Page:
+📌Admin Page:
 
 
-<img src="https://i.imgur.com/iUHalVU.png" alt="project(Coise-User)" width="900" height="480">
-
-
-
-
-📌Reserve Class Page: 
+<img src="https://i.imgur.com/iUHalVU.png" alt="project(Coise-User)" width="900" height="580">
 
 
 
-<img src="https://i.imgur.com/xmmIdDa.png" alt="project(Coise-User)" width="900" height="380">
+
+📌Owner Page: 
 
 
 
-📌Footer Page: 
+<img src="https://i.imgur.com/JsbVFM4.png" alt="project(Coise-User)" width="900" height="580">
 
 
 
-<img src="https://i.imgur.com/8p7dEIY.png" alt="project(Coise-User)" width="900" height="380">
+📌Customer Page: 
 
 
 
-📌Checkout Page: 
+<img src="https://i.imgur.com/yD17tXQ.png" alt="project(Coise-User)" width="900" height="580">
 
 
 
-<img src="https://i.imgur.com/VkR25tj.png" alt="project(Coise-User)" width="900" height="380">
+📌Sinup Page: 
+
+
+
+<img src="https://i.imgur.com/3NCkxzs.png" alt="project(Coise-User)" width="900" height="580">
 
 
 
