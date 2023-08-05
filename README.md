@@ -19,7 +19,7 @@
 
 * [About the Project](#about-the-project)
 * [Cars-Exhibition-System](#CarsExhibitionSystem)
-* [Installation-Process](#Installation-Process)
+* [Installation-Process](#InstallationProcess)
 * [Contributing](#contributing)
 * [Authors](#authors)
 
@@ -80,7 +80,7 @@
 *  An auto show, also known as a motor show or car exhibition, is a public exhibition of current automobile models, debuts, concept cars, or out-of-production classics.
 
 
-## Installation-Process
+## InstallationProcess
 JavaFX Tutorial
 
 
